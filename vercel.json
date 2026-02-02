@@ -10,11 +10,7 @@
       "buildCommand": "cd apps/storefront && pnpm build",
       "installCommand": "pnpm install --frozen-lockfile",
       "outputDirectory": "apps/storefront/.next",
-      "devCommand": "cd apps/storefront && pnpm dev",
-      "env": {
-        "NEXT_PUBLIC_SUPABASE_URL": "@supabase-url",
-        "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@supabase-anon-key"
-      }
+      "devCommand": "cd apps/storefront && pnpm dev"
     },
     {
       "name": "admin-dashboard",
@@ -23,11 +19,7 @@
       "buildCommand": "cd apps/admin-dashboard && pnpm build",
       "installCommand": "pnpm install --frozen-lockfile",
       "outputDirectory": "apps/admin-dashboard/.next",
-      "devCommand": "cd apps/admin-dashboard && pnpm dev",
-      "env": {
-        "NEXT_PUBLIC_SUPABASE_URL": "@supabase-url",
-        "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@supabase-anon-key"
-      }
+      "devCommand": "cd apps/admin-dashboard && pnpm dev"
     }
   ]
 }
