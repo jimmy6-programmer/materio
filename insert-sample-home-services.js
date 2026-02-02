@@ -1,0 +1,1 @@
+// insert-sample-home-services.js removed — seeding disabled to prevent seeded home services from appearing on the homepage.
