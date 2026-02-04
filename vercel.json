@@ -1,25 +1,25 @@
 {
-  "buildCommand": "pnpm install && pnpm build",
-  "installCommand": "pnpm install",
+  "buildCommand": "npm install && npm run build",
+  "installCommand": "npm install",
   "framework": null,
   "projects": [
     {
       "name": "storefront",
       "root": "apps/storefront",
       "framework": "nextjs",
-      "buildCommand": "pnpm --filter storefront build",
-      "installCommand": "pnpm install",
+      "buildCommand": "npm run build",
+      "installCommand": "npm install",
       "outputDirectory": "apps/storefront/.next",
-      "devCommand": "pnpm --filter storefront dev"
+      "devCommand": "npm run dev"
     },
     {
       "name": "admin-dashboard",
       "root": "apps/admin-dashboard",
       "framework": "nextjs",
-      "buildCommand": "pnpm --filter admin-dashboard build",
-      "installCommand": "pnpm install",
+      "buildCommand": "npm run build",
+      "installCommand": "npm install",
       "outputDirectory": "apps/admin-dashboard/.next",
-      "devCommand": "pnpm --filter admin-dashboard dev"
+      "devCommand": "npm run dev"
     }
   ]
 }
