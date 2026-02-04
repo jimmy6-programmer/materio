@@ -1,6 +1,6 @@
 {
-  "buildCommand": "pnpm install --frozen-lockfile && pnpm build",
-  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "pnpm install && pnpm build",
+  "installCommand": "pnpm install",
   "framework": null,
   "projects": [
     {
@@ -8,7 +8,7 @@
       "root": "apps/storefront",
       "framework": "nextjs",
       "buildCommand": "pnpm --filter storefront build",
-      "installCommand": "pnpm install --frozen-lockfile",
+      "installCommand": "pnpm install",
       "outputDirectory": "apps/storefront/.next",
       "devCommand": "pnpm --filter storefront dev"
     },
@@ -17,7 +17,7 @@
       "root": "apps/admin-dashboard",
       "framework": "nextjs",
       "buildCommand": "pnpm --filter admin-dashboard build",
-      "installCommand": "pnpm install --frozen-lockfile",
+      "installCommand": "pnpm install",
       "outputDirectory": "apps/admin-dashboard/.next",
       "devCommand": "pnpm --filter admin-dashboard dev"
     }
